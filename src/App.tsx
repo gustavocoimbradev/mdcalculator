@@ -166,7 +166,7 @@ function App() {
                   <Col xs="12" className="p-0"><Button className="character" block color="dark" onClick={function () { addCharacter(character + '+'); setOperation('+') }}>+</Button></Col>
                 </Row>
                 <Row className="line">
-                  <Col xs="12" className="p-0"><Button className="get-result" block color="primary" onClick={() => getResult()}>XX=</Button></Col>
+                  <Col xs="12" className="p-0"><Button className="get-result" block color="primary" onClick={() => getResult()}>=</Button></Col>
                 </Row>
               </Col>
             </Row>
