@@ -1,0 +1,98 @@
+.App{
+  background-color: rgb(29, 29, 29);
+  height: 100vh;
+}
+.calculator{
+  width: 18rem;
+}
+.text-bold{
+  font-weight: 500;
+}
+.character:focus{
+  background-color: #212529 !important;
+}
+.character:active{
+  background-color: #2b2f33 !important;
+}
+.character:active, .character:focus, .character:hover {
+  border: 1px !important;
+  border-color: #212529!important ;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+#display{
+  height: 100%;
+  text-align: right;
+}
+.card-title{
+  height: 15vh;
+}
+.card-body{
+  margin: 0px !important;
+  background-color: #212529 !important;
+  height: 40vh;
+}
+button{
+  height: 100%;
+}
+.line{
+  height: 10vh;
+}
+button{
+  border-radius: 0px !important;
+}
+.card{  background-color: #212529 !important;
+
+  border-radius: 0px !important;
+}
+#display{
+  border-radius: 0px;
+  font-size: 30px;
+}
+#display::placeholder{
+  color: rgb(151, 151, 151);
+  font-size: 15px;
+
+}
+.calculator{
+  height: 80vh !important;
+}
+
+/* Mobile */
+@media (max-width: 768px) { 
+  .calculator{
+    height: 100vh !important;
+    width: 100vw;
+  }
+  button{
+    height: 100%;
+    font-size: 23px !important;
+  }
+  .card-body{
+    padding: 0px !important;
+    margin: 0px !important;
+    height: 80vh;
+    position: fixed;
+    width: 100%;
+    top: 20vh;
+  }
+  .line{
+    height: 12.5vh;
+  }
+  .card-title{
+    height: 20vh;
+    position: fixed;
+    width: 100%;
+  }
+  #display{
+    height: 100%;
+    text-align: right;
+  }
+  #display::placeholder{
+    color: rgb(151, 151, 151);
+    font-size: 20px;
+  }
+  #display{
+    font-size: 56px;
+  }
+ }
