@@ -9,7 +9,7 @@
 </p>
 
 <p>
-  "My Calculator" is a simple and modern web calculator. 
+  "My Calculator" is a simple and modern web calculator based on Material Design. 
 </p>
 
 ![image](https://github.com/gustavocoimbradev/my-calculator/assets/135629152/a4bf33d7-426b-4a43-b845-6fb7afe725c8)
