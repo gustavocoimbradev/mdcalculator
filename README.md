@@ -9,11 +9,11 @@
 </p>
 
 <p>
-  "My Calculator" is a simple and modern web calculator based on Material Design. 
+  "MD Calculator" is a simple and modern web calculator based on Material Design. 
 </p>
 
 ![image](https://github.com/gustavocoimbradev/my-calculator/assets/135629152/a4bf33d7-426b-4a43-b845-6fb7afe725c8)
 
-<a href="https://mycalculator.insider.blue/">
+<a href="https://mdcalculator.vercel.app/">
   <img src="https://img.shields.io/badge/%F0%9F%93%8E-Try it for free-blue" alt="🔗 Try it for free" width="150" height="30">
 </a>
